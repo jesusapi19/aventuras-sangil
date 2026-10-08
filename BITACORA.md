@@ -31,3 +31,13 @@ reflexion m2
 ##p5
 en el navegador se quedara en bucle
 en la terminal e imprimirá la línea del registro (hora, método y URL) una sola vez al entrar la petición, pero ahí se detendrá la ejecución del servidor para esa solicitud 
+
+##p 6
+Código de estado: 200 OK.
+Body: Muestra nada porque el sistema compara el número 1 del arreglo con el texto "1" de la URL y no encuentra ninguna coincidencia.
+el 1 aparece sin comillas
+
+##p7
+Recibe el estado 404 Not Found con el mensaje de que la actividad no existe.
+En la terminal: Muestra un error grave indicando que el servidor intentó enviar dos respuestas para una misma petición.
+El return es obligatorio para cortar la ejecución e impedir que el código siga de largo hasta el res.json(actividad).
