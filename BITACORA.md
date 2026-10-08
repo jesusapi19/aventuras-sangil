@@ -27,3 +27,7 @@ reflexion m2
 1.aveces no se ejecutaba el servidor
 2.el script del package toco modificarlos
 3.casi no puede ejecutar el server
+ 
+##p5
+en el navegador se quedara en bucle
+en la terminal e imprimirá la línea del registro (hora, método y URL) una sola vez al entrar la petición, pero ahí se detendrá la ejecución del servidor para esa solicitud 
